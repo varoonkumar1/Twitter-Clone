@@ -15,7 +15,7 @@ function sidebar() {
 
     for (let i = 0; i < icons.length; i++) {
         sideBar.innerHTML += `
-                <li class="icons flex font-normal text-white gap-4 items-center p-2 mr-2 md:m-0 rounded-3xl transition-colors duration-300"><img src="icons/${icons[i]}.svg" alt="" srcset=""><span class="hidden md:block">${icons[i]}</span></li>`
+                <li class="icons flex font-normal text-white gap-4 items-center p-2 mr-2 md:m-0 rounded-3xl transition-colors duration-300"><img src="icons/${icons[i].toLowerCase()}.svg" alt="" srcset=""><span class="hidden md:block">${icons[i]}</span></li>`
     }
     sideBar.innerHTML += `<button class="post bg-white p-2 size-9 rounded-full m-2 font-semibold text-black md:p-0 md:px-20 flex items-center justify-center md:rounded-3xl"><img class="md:hidden" src="icons/leaf.svg" alt="" srcset=""><span class="hidden md:flex">Post</span></button>`
 
