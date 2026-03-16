@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.icons:hover{
+    background-color: rgb(26, 25, 25);
+}
+.posticons:hover{
+    background-color: rgba(29, 156, 240, 0.169);
+}
+
+.post:hover{
+    background-color: rgb(179, 179, 179);
+}
+.comment:hover img.comment{
+    background-color: rgba(29, 156, 240, 0.395);
+}
+.comment:hover {
+    color: rgb(29, 156, 240);
+}
+.repost:hover img.repost{
+    background-color: rgba(29, 240, 92, 0.395);
+}
+.repost:hover {
+    color: rgb(29, 240, 92);
+}
+.like:hover img.like{
+    background-color: rgba(240, 29, 29, 0.395);
+}
+.like:hover {
+    color: rgb(240, 29, 29);
+}
+
+
+.icons:hover,
+.posticons:hover,
+.post:hover,
+.comment:hover,
+.repost:hover,
+.like:hover {
+    cursor: pointer;
+}
+
+.second::-webkit-scrollbar{
+    display: none;
+}
+.tile:hover{
+    background-color: rgb(11, 11, 11);
+}
